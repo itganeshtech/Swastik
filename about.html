@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About | Swastik Sacred Symbol</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container header-flex">
+        <h1>About</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav id="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="disclaimer.html">Disclaimer</a>
+        </nav>
+    </div>
+</header>
+
+<section class="content">
+    <div class="container">
+        <h2>Our Mission</h2>
+        <p>
+            This website is dedicated to explaining the ancient spiritual meaning
+            of the Swastik in Hinduism. Our aim is to promote cultural awareness
+            and historical understanding.
+        </p>
+
+        <h2>Educational Purpose</h2>
+        <p>
+            The information provided here is for educational and informational purposes only.
+            We seek to clarify misconceptions and present historical context respectfully.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Swastik – Sacred Hindu Symbol</p>
+    </div>
+</footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById("nav").classList.toggle("active");
+}
+
+// Dark Mode Toggle
+const toggle = document.getElementById("darkToggle");
+
+if(localStorage.getItem("darkMode") === "enabled"){
+    document.body.classList.add("dark");
+}
+
+toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("darkMode", "enabled");
+    } else {
+        localStorage.setItem("darkMode", "disabled");
+    }
+});
+</script>
+
+
+</body>
+</html>

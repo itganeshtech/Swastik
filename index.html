@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Swastik Meaning in Hinduism | Sacred Ancient Symbol</title>
+<meta name="description" content="Discover the true meaning of the Swastik in Hinduism. Learn its ancient origins, spiritual significance, and difference from the Nazi symbol.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="glass">
+    <div class="container header-flex">
+        <h1>🕉 Swastik</h1>
+        <div class="controls">
+            <button id="darkToggle" class="dark-btn">🌙</button>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+
+        <nav id="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="disclaimer.html">Disclaimer</a>
+        </nav>
+    </div>
+</header>
+
+
+<section class="hero">
+    <div class="container">
+        <h2>The Sacred Hindu Symbol of Peace & Prosperity</h2>
+        <p>The Swastik is one of the oldest spiritual symbols in Hinduism, representing good fortune, harmony, and divine blessings.</p>
+    </div>
+</section>
+<section class="image-section">
+    <div class="container">
+        <h2>Sacred Representation</h2>
+        <img src="images/swastik.png"
+             alt="Traditional Hindu Swastik symbol drawn in red kumkum during a religious ceremony"
+             class="responsive-img">
+        <p class="caption">
+            Traditional Swastik symbol used in Hindu rituals and festivals.
+        </p>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container">
+        <h2>Meaning of the Swastik</h2>
+        <p>
+            Derived from Sanskrit — “Su” meaning good and “Asti” meaning existence —
+            the Swastik signifies well-being, prosperity, and auspicious beginnings.
+        </p>
+
+        <h2>Ancient Origins</h2>
+        <p>
+            The symbol dates back more than 5,000 years and appears in ancient Indian
+            civilization, temple art, and sacred texts.
+        </p>
+
+        <h2>Clarifying Misconceptions</h2>
+        <ul>
+            <li>Ancient spiritual symbol of Hinduism</li>
+            <li>Represents harmony and positive energy</li>
+            <li>Used in religious ceremonies and festivals</li>
+            <li>Not related to modern political ideology</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Swastik – Sacred Hindu Symbol | Educational Website</p>
+    </div>
+</footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById("nav").classList.toggle("active");
+}
+
+// Dark Mode Toggle
+const toggle = document.getElementById("darkToggle");
+
+if(localStorage.getItem("darkMode") === "enabled"){
+    document.body.classList.add("dark");
+}
+
+toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        localStorage.setItem("darkMode", "enabled");
+    } else {
+        localStorage.setItem("darkMode", "disabled");
+    }
+});
+</script>
+
+
+</body>
+</html>
