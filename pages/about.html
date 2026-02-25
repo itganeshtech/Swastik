@@ -8,18 +8,10 @@
 </head>
 
 <body>
+    <!-- HEADER -->
+    <div id="header"></div>
 
-<header>
-    <div class="container header-flex">
-        <h1>About</h1>
-        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-        <nav id="nav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="disclaimer.html">Disclaimer</a>
-        </nav>
-    </div>
-</header>
+    <!-- ABOUT CONTENT --> 
 
 <section class="content">
     <div class="container">
@@ -38,12 +30,9 @@
     </div>
 </section>
 
-<footer>
-    <div class="container">
-        <p>© 2026 Swastik – Sacred Hindu Symbol</p>
-    </div>
-</footer>
+<div id="footer"></div>
 
+<script src="/js/include.js"></script>
 <script>
 function toggleMenu() {
     document.getElementById("nav").classList.toggle("active");
