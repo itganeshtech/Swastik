@@ -216,6 +216,63 @@ section h3 {
 }
 
 /* ============================= */
+/* PREMIUM ARTICLE TABLE STYLE  */
+/* ============================= */
+
+.article-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-size: 0.95rem;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.article-section th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+    text-align: left;
+    padding: 16px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: 'Playfair Display', serif;
+}
+
+.article-section td {
+    padding: 14px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 1.6;
+    font-family: 'Source Serif 4', serif;
+}
+
+.article-section tr:last-child td {
+    border-bottom: none;
+}
+
+.article-section tr:hover {
+    background-color: #fafafa;
+    transition: background 0.2s ease;
+}
+
+/* ============================= */
+/* DIAGRAM BLOCK STYLE          */
+/* ============================= */
+
+.article-section pre {
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Source Serif 4', serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 30px auto;
+    max-width: 500px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+}
+
+/* ============================= */
 /* FOOTER */
 /* ============================= */
 
