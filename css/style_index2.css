@@ -30,7 +30,7 @@ header {
 }
 
 header h1 {
-    font-size: 20px;
+    font-size: 15px;
     margin: 0;    
 }
 /* Right side */
@@ -44,7 +44,7 @@ nav a {
     margin-left: 20px;
     text-decoration: none;
     color: #444;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 nav a:hover {
