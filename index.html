@@ -1,102 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Swastik Meaning in Hinduism | Sacred Ancient Symbol</title>
-<meta name="description" content="Discover the true meaning of the Swastik in Hinduism. Learn its ancient origins, spiritual significance, and difference from the Nazi symbol.">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Swastik: History & Structure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic exploration of the Swastik symbol: origins, cultural meanings, structural analysis, and modern use in Hindu practice.">
+
+    <link rel="stylesheet" href="css/style_index2.css">
 </head>
-
 <body>
-<header class="glass">
-    <div class="container header-flex">
-        <h1>🕉 Swastik</h1>
-        <div class="controls">
-            <button id="darkToggle" class="dark-btn">🌙</button>
-            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <!-- HEADER -->
+    <header id="header"></header>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <h2>The Swastik: History, Structure, and Cultural Meaning</h2>
+        <p>
+            An academic exploration of one of humanity’s oldest geometric symbols — 
+            from prehistoric origins to its modern religious use.
+        </p>
+        <div class="disclaimer">
+            This website presents historical and cultural research. 
+            It does not promote political or extremist ideology.
         </div>
-
-        <nav id="nav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="disclaimer.html">Disclaimer</a>
-        </nav>
+        <br>
+        <a href="#" class="btn">Explore Origins</a>
+        <a href="#" class="btn">View Structural Comparison</a>
     </div>
-</header>
 
-
-<section class="hero">
-    <div class="container">
-        <h2>The Sacred Hindu Symbol of Peace & Prosperity</h2>
-        <p>The Swastik is one of the oldest spiritual symbols in Hinduism, representing good fortune, harmony, and divine blessings.</p>
-    </div>
-</section>
-<section class="image-section">
-    <div class="container">
-        <h2>Sacred Representation</h2>
-        <img src="images/swastik.png"
-             alt="Traditional Hindu Swastik symbol drawn in red kumkum during a religious ceremony"
-             class="responsive-img">
-        <p class="caption">
-            Traditional Swastik symbol used in Hindu rituals and festivals.
-        </p>
-    </div>
-</section>
-
-<section class="content">
-    <div class="container">
-        <h2>Meaning of the Swastik</h2>
+    <!-- INTRO SECTION -->
+    <section>
+        <h3>An Ancient Symbol Across Civilizations</h3>
         <p>
-            Derived from Sanskrit — “Su” meaning good and “Asti” meaning existence —
-            the Swastik signifies well-being, prosperity, and auspicious beginnings.
+            The Swastik is among the oldest known symbols in human history. 
+            Archaeological findings trace its presence to prehistoric Eurasia, 
+            ancient South Asia, and classical civilizations. Over millennia, 
+            it symbolized cosmic order, solar motion, cyclical time, and well-being.
         </p>
-
-        <h2>Ancient Origins</h2>
         <p>
-            The symbol dates back more than 5,000 years and appears in ancient Indian
-            civilization, temple art, and sacred texts.
+            This website examines the symbol through a historical and structural lens, 
+            distinguishing ancient cultural meanings from modern reinterpretations.
         </p>
+    </section>
 
-        <h2>Clarifying Misconceptions</h2>
-        <ul>
-            <li>Ancient spiritual symbol of Hinduism</li>
-            <li>Represents harmony and positive energy</li>
-            <li>Used in religious ceremonies and festivals</li>
-            <li>Not related to modern political ideology</li>
-        </ul>
-    </div>
-</section>
+    <!-- CONTENT GRID -->
+    <section>
+        <h3>Explore the Research</h3>
+        <div class="cards">
 
-<footer>
-    <div class="container">
-        <p>© 2026 Swastik – Sacred Hindu Symbol | Educational Website</p>
-    </div>
-</footer>
+            <div class="card">
+                <h4>Origin of Swastik</h4>
+                <p>Prehistoric discoveries and earliest archaeological evidence.</p>
+                <a href="/pages/origin.html">Read More</a>
+            </div>
 
-<script>
-function toggleMenu() {
-    document.getElementById("nav").classList.toggle("active");
-}
+            <div class="card">
+                <h4>Ancient Interpretations</h4>
+                <p>What ancient civilizations believed the symbol represented.</p>
+                <a href="/pages/AncientInterpretation.html">Read More</a>
+            </div>
 
-// Dark Mode Toggle
-const toggle = document.getElementById("darkToggle");
+            <div class="card">
+                <h4>Ancient World Cultures</h4>
+                <p>Its presence across Europe, Asia, and the Americas.</p>
+                <a href="/pages/AncientCulture.html">Read More</a>
+            </div>
 
-if(localStorage.getItem("darkMode") === "enabled"){
-    document.body.classList.add("dark");
-}
+            <div class="card">
+                <h4>Hakenkreuz History</h4>
+                <p>20th-century political transformation and structural redesign.</p>
+                <a href="/pages/Haken_Hist.html">Read More</a>
+            </div>
 
-toggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
+            <div class="card">
+                <h4>Structural Comparison</h4>
+                <p>Proportional differences explained visually.</p>
+                <a href="/pages/Diff_Swastik.html">Read More</a>
+            </div>
+            <div class="card">
+                <h4>Geometric Differences</h4>
+                <p>Geometric differences explained.</p>
+                <a href="/pages/Geometric.html">Read More</a>
+            </div>
 
-    if(document.body.classList.contains("dark")){
-        localStorage.setItem("darkMode", "enabled");
-    } else {
-        localStorage.setItem("darkMode", "disabled");
-    }
-});
-</script>
+            <div class="card">
+                <h4>Modern Hindu Practice</h4>
+                <p>Contemporary religious use in rituals and ceremonies.</p>
+                <a href="/pages/ModernHinduUse.html">Read More</a>
+            </div>
 
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+  <footer id="footer"></footer>
+
+  <script src="/js/include.js"></script>  
 
 </body>
 </html>
